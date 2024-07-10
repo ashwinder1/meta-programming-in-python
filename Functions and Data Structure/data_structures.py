@@ -29,3 +29,13 @@ for item in order:
     total_bill += item["price"]
 
 print(f"Total bill: ${total_bill:.2f}")
+
+
+# functions of list
+new_list = [1,2,3,4]
+
+new_list.insert(0,0)
+
+new_list.extend(new_list)
+
+print(new_list)
